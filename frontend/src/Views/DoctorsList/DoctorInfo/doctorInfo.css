@@ -1,0 +1,12 @@
+.doctor_container {
+  list-style-type: none;
+}
+
+.doctor_container li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.doctor_container span {
+  min-width: 120px;
+}

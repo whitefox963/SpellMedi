@@ -1,0 +1,32 @@
+.history_data-form {
+  margin-top: 30px;
+  padding-left: 40px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 320px;
+  overflow: auto;
+}
+
+.form_input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  label {
+    margin-left: 10px;
+  }
+}
+
+.input-box {
+  margin-left: auto;
+  max-width: 300px;
+  height: 40px;
+}
+
+.dropdown-box {
+  margin-left: auto;
+  width: 300px;
+  height: 40px;
+}

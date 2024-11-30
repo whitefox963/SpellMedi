@@ -1,0 +1,68 @@
+.doctor_list-container {
+  margin-left: 60px;
+  width: 87%;
+  height: 100%;
+  color: white;
+}
+
+.doctor_row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.doctor_list-container div:last-child {
+  margin-bottom: 0;
+}
+
+.doctor_details {
+  width: 28%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.doctor_details img {
+  margin: 10px 0;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.doctor-info {
+  height: 37%;
+}
+
+.doctor-buttons {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 50%;
+}
+
+.doctor-buttons button {
+  padding: 8px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.doctor-buttons button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.no_doctor-message {
+  padding: 6px 8px;
+  border-radius: 10px;
+  margin-top: -10px;
+  max-width: 500px;
+  align-self: flex-start;
+  background-color: #2f2f2f;
+  margin-left: 60px;
+}
